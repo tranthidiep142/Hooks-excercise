@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import {Counter, RandomGift} from './useState'
-import { RadioCheck} from './two-way-binding';
+// import { RadioCheck} from './two-way-binding';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RadioCheck />
+    {/* <RadioCheck /> */}
+    <App />
   </React.StrictMode>
 );
 
